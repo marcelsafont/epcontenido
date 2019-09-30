@@ -180,7 +180,7 @@ table {
 
 .box-info, .box-info-no-image{
 	position:relative;
-	padding:6.5rem 3.5rem 5.5rem 3.5rem;  
+	padding:4rem 3.5rem 4rem 3.5rem;  
 	text-align:center;
 	> div{
 		color:$color_seventh;
@@ -381,13 +381,17 @@ table {
 @media screen and (max-width:1080px){
 	.box-links{
 		display:block;
+		padding-bottom:2rem;
 	}
 	.box-links div{
 		width:100%;
-		margin-bottom:1rem;
+		margin-bottom:3rem;
 	}
 	.box-info>div{
 		padding:7rem 1rem;
+	}
+	.box-info-no-image>div{
+		padding:2rem 1rem;
 	}
 }
 
@@ -422,6 +426,12 @@ table {
 	.color-boxes>div:nth-child(6){
 		background: url(../assets/bubbles-oscuro.png) repeat-x #B4B0A7;
 	}
+	.box-info{
+		padding-top:8rem;
+		&:before{
+			top:15px;
+		}
+	}
 }
 @media screen and (max-width:640px){
 	.box-info-grey.container{
@@ -431,7 +441,10 @@ table {
 		padding:5rem 2rem 5rem 2rem;
 	}
 	.box-info{
-		padding:6rem 1rem 2rem 1rem;
+		padding:6rem 1rem 4rem 1rem;
+	}
+	.box-info-no-image{
+		padding:2rem 1rem 2rem 1rem;
 	}
 	.box-info-grey .flexslider .content-slide{
 		padding:1rem;
