@@ -153,6 +153,26 @@ table {
 			    background:url('../assets/bubbles-claro.png') repeat-x;
 			}
 		}
+		&:nth-child(7){
+			width:100%;
+			background-color:$color_first;
+			position:relative;
+			z-index:-1;
+			.mini-container{
+				margin:0 auto;
+				max-width:74rem;
+				float:none
+			}
+			&:after{
+				position:absolute;
+				bottom:-35px;
+				content:"";
+				width:100%;
+				height:35px;
+				background:url('../assets/bubbles-azul.png') repeat-x;
+				
+			}
+		}
 
 	}
 	
@@ -221,6 +241,7 @@ table {
 }
 
 .box-info-grey{
+	margin-bottom:2rem;
 	background-color:$color_nineth;
 	.content{
 		padding:3rem 6rem 0rem 6rem;
