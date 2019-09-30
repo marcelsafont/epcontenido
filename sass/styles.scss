@@ -243,12 +243,13 @@ table {
 .box-info-grey{
 	margin-bottom:2rem;
 	background-color:$color_nineth;
+	padding-bottom:2rem;
 	.content{
 		padding:3rem 6rem 0rem 6rem;
 		h2{
 			border-bottom:.15rem solid #fff;
 			padding-bottom:2rem;
-			padding-left:2rem;
+			text-align: center;
 			color:#fff;
 			font-size:2rem;
 		}
@@ -257,14 +258,6 @@ table {
 	.flexslider{
 		background-color:transparent;
 		border:0;
-		.flex-control-nav{
-			bottom:0;
-			top:-50px;
-			text-align:right;
-			li{
-				text-align:center;
-			}
-		}
 		.flex-direction-nav{
 			display:none!important;
 		}
