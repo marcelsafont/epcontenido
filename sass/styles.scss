@@ -452,10 +452,11 @@ table {
 		padding:2rem 1rem 2rem 1rem;
 	}
 	.box-info-grey .flexslider .content-slide{
-		padding:1rem;
+		padding:1rem 0;
 	}
 	.box-info-grey .content h2{
 		padding-left:1rem;
+		font-size:1.4rem;
 	}
 	.box-links div a{
 		padding:1.5rem .8rem!important;
@@ -465,6 +466,36 @@ table {
 	}
 	.box-links{
 		padding:0 1rem;
+		a, div a{
+			font-size:1.3rem;
+		}
+	}
+	.color-boxes>div{
+		h2{
+			font-size:1.5rem;
+		}
+		p{
+			font-size:1rem;
+		}
+	}
+	.box-info-grey .flexslider .content-slide{
+		font-size:1rem;
+		line-height:1.4rem;
+	}
+	.box-info>div{
+		font-size:1.4rem;
+		line-height:1.9rem;
+	}
+	.box-image-input h3{
+		font-size:1.5rem;
+		line-height:1.9rem;
 	}
 }
+
+@media screen and (max-width:350px){
+	.box-image-input .enviar-btn, .box-image-input h2{
+		margin:1rem 1.4rem;
+	}
+}
+	
 
