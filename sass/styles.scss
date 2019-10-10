@@ -70,9 +70,14 @@ table {
 	text-align: center;
 	max-width:60rem;
 	margin:auto;
+	margin-bottom:2rem;
 	img{
 		max-width: 100%
 	}
+}
+
+#colaborador, #responsable{
+	display:none;
 }
 
 .color-boxes{
