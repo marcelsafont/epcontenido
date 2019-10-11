@@ -218,16 +218,22 @@ table {
 	padding-bottom:5rem;
 	div{
 		width:calc(50% - 1rem);
+		
 	  	a{
-	  		display:block;
+			align-items: center;
+			display:flex;
+			box-sizing: border-box;
+			justify-content: center;
 	  		border-radius: .5rem;
-	  		padding:2rem;
+			padding:2rem;
+			line-height:1.9rem;
 	  		background-color:$color_seventh;
 	  		color:#fff;
 	  		border-bottom:0.5rem solid $color_eight;
 	  		font-size:1.62rem;
 	  		text-decoration:none;
-	  		text-align: center;
+			  width:100%;
+			  height:100%;
 	  		img{
 	  			max-width:80px;
 	  		}
@@ -468,6 +474,7 @@ table {
 		padding:0 1rem;
 		a, div a{
 			font-size:1.12rem;
+			line-height:1.4rem;
 		}
 	}
 	.color-boxes>div{
